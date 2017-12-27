@@ -11,8 +11,8 @@ echo "Port to scan"
 read port
 echo "Numbers of Threads:"
 read threads
-echo '' > targets #>> target
-for x in $(seq $r1);do for y in $(seq $r2);do for z in $(seq $r3);do for w in $(seq $r4);do # >> target
+echo '' > targets
+for x in $(seq $r1);do for y in $(seq $r2);do for z in $(seq $r3);do for w in $(seq $r4);do
 echo $port $x.$y.$z.$w >> targets
 done done done done
 echo "Starting Scan"
