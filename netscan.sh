@@ -1,4 +1,5 @@
 #!/bin/bash
+# ig: @thelinuxchoice
 echo "Put range ip part 1/4, e.g.:192 255"
 read r1
 echo "Put range ip part 2/4, e.g: 168 255"
