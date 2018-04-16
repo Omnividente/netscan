@@ -1,5 +1,20 @@
 #!/bin/bash
 # ig: @thelinuxchoice
+
+# start code by @Ark-c3 --
+
+dir=('/bin/netcat')
+
+if [ -e $dir ]then;
+echo "[+] NetCat installaded"
+else
+echo "NetCat not installaded!"
+exit
+fi
+
+# end code by @Ark-c3--
+
+
 echo "Put range ip part 1/4, e.g.:192 255"
 read r1
 echo "Put range ip part 2/4, e.g: 168 255"
