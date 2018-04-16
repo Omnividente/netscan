@@ -1,7 +1,7 @@
 #!/bin/bash
 # ig: @thelinuxchoice
 
-# start code by @Ark-c3 --
+# start code by @Ark-c3 -- https://github.com/ark-c3 - arkc3ti.blogspot.com
 
 dir=('/bin/netcat')
 
