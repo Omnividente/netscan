@@ -19,5 +19,5 @@ done done done done
 echo "Starting Scan"
 echo '' > logfile;
 xargs -a targets -n 2 -P $threads sh -c 'nc $1 '$port' -v -z -w5; echo $? $1 >> logfile'
-grep -w "0" logfile | cut -d " " -f2 > found.lst
+grep "^0" logfile | cut -d " " -f2 > found.lst
 echo "Found: found.lst"
